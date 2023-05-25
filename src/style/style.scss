@@ -223,3 +223,100 @@ footer {
   color: #FFFFFF;
 }
 
+nav {
+  display: flex;
+  gap: 2rem;
+}
+.logo {
+  margin-inline-end: auto;
+}
+.teaser {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(12, 1fr);
+  background: #7A49F2;
+}
+.teaser img {
+  position: relative;
+  z-index: 2;
+  margin-block-start: -3rem;
+  width: 100%;
+  grid-column: 3/6;
+  grid-row: span 2;
+  pointer-events: none;
+  align-self: end;
+}
+.teaser h1, .teaser p {
+  grid-column: 6/11;
+}
+.teaser h1 {
+  align-self: end;
+}
+.teaser p {
+  align-self: start;
+}
+nav {
+  background: white;
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+
+.registerForm {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.divInput {
+  display:flex; justify-content:center; width:100%;  text-align:center;
+  margin-bottom: 5px;
+}
+input {
+  margin-right:200px;
+}
+label {
+  margin-right:10px;
+  width:100px;
+}
+.card__img {
+  height:300px;
+  width:405px
+}
+textarea{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width:54rem;
+  height:5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container label {
+  align-self: center; 
+  text-align: center;
+  margin-right: 52rem; 
+}
+  .card--off {
+    display:none;
+  }
+.card {
+  display:inline-block;
+  border:solid;
+  margin-left: 30px;
+  margin-right: 30px;
+  height:405px;
+  overflow: hidden;
+  width:405px
+}
+footer {
+  background-color: #343237;
+  color: #FFFFFF;
+  text-align: center;
