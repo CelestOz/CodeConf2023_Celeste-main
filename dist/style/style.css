@@ -415,11 +415,6 @@ summary {
   align-self: end;
 }
 
-nav {
-  display: flex;
-  gap: 2rem;
-}
-
 .logo {
   -webkit-margin-end: auto;
           margin-inline-end: auto;
@@ -427,10 +422,15 @@ nav {
 
 .teaser {
   display: grid;
+  font-family: "museo";
   color: #FFFFFF;
   margin: 0 auto;
   grid-template-columns: repeat(12, 1fr);
   background: #7A49F2;
+}
+
+.teaser__text {
+  font-weight: 400;
 }
 
 .teaser img {
@@ -464,7 +464,7 @@ nav {
   margin: 0 auto;
   padding: 1rem;
   background-color: #F9F9F9;
-  color: #00C3C5;
+  color: #343237;
   display: flex;
   align-items: center;
   gap: 2rem;
