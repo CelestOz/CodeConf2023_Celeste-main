@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'codeconf';
-  src:  url('codeconf/codeconf.woff?oat0m9') format('woff');
+  src:  url('/src/webfonts/codeconf-all/fonts/codeconf.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -90,28 +90,28 @@
 /* museo */
 @font-face {
   font-family: "museo";
-  src: url("museo/museo300.woff2") format("woff2"),
-       url("museo/museo300.woff") format("woff");
+  src: url("/src/webfonts/museo/museo300.woff2") format("woff2"),
+       url("/src/webfonts/museo/museo300.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "museo";
-  src: url("museo/museo500.woff2") format("woff2"),
-       url("museo/museo500.woff") format("woff");
+  src: url("/src/webfonts/museo/museo500.woff2") format("woff2"),
+       url("/src/webfonts/museo/museo500.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "museo";
-  src: url("museo/museo700.woff2") format("woff2"),
-       url("museo/museo700.woff") format("woff");
+  src: url("/src/webfonts/museo/museo700.woff2") format("woff2"),
+       url("/src/webfonts/museo/museo700.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "maven";
-  src: url("maven/maven400.woff2") format("woff2"),
+  src: url("/") format("woff2"),
        url("maven/maven400.woff") format("woff");
   font-weight: 400;
   font-style: normal;
@@ -161,6 +161,7 @@
 
 nav {
   background-color: #F9F9F9;
+  color: #00C3C5;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -197,6 +198,7 @@ nav {
 
 .teaser {
   background-color: #7A49F2;
+  color: #FFFFFF;
 }
 
 h1, p {
